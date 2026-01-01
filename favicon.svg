@@ -1,18 +1,12 @@
-<!--?xml version="1.0" encoding="UTF-8"?-->
-<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="HL favicon">
-  <defs>
-    <style>
-      .bg { fill: #1f2937; }
-      .txt {
-        fill: #ffffff;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-weight: 600;
-        font-size: 30px;
-        letter-spacing: -1px;
-      }
-    </style>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" shape-rendering="geometricPrecision" text-rendering="optimizeLegibility">
 
-  <rect class="bg" x="0" y="0" width="64" height="64" rx="14" ry="14"></rect>
-  <text class="txt" x="32" y="40" text-anchor="middle">HL</text>
+  <!-- 外圈：纯圆，留 2px 安全边距，防止小尺寸裁切 -->
+  <circle cx="32" cy="32" r="30" fill="#0B1320"></circle>
+
+  <!-- HL 字母：专为 favicon 调整的比例与字距 -->
+  <text x="32" y="34" text-anchor="middle" dominant-baseline="middle" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+                     'Segoe UI', Roboto, Helvetica, Arial" font-size="26" font-weight="800" letter-spacing="1.2" fill="#FFFFFF">
+    HL
+  </text>
+
 </svg>
